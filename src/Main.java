@@ -5,9 +5,7 @@ public class Main {
 
         CustomerController customerController = new CustomerController();
 
+        customerController.run();
 
-        CustomerRepository customerRepository = new CustomerRepository();
-
-        customerRepository.getAllCustomers();
     }
 }
